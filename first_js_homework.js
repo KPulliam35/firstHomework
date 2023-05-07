@@ -1,14 +1,14 @@
-// Section1
+// Section1 Terms
 
 //What does the acronym DRY stand for? Why should we pay attention to it? What programming tools have we learned to write DRY code?
 
-// DRY stand for "Dont Repeat Yourself" // This will help us not to write the same code over and over again // Loop & Boolean 
+/*DRY stand for Dont Repeat Yourself | This will help us not to write the same code over and over again | Loop & Boolean*/
 
 // What is the difference between const and let and var? Please limit your answer to no more than three short sentences. Don't be afraid to research using google and other resources
 
-// Const maintains constnt values, Let is block scope and only available for use within that block, Var is at the top of the scope before the code execution.
+//  #Const maintains constnt values |Let is block scope and only available for use within that block | Var is at the top of the scope before the code execution.#
 
-// Section2 I'm not sure how to do this section of the homework
+// Section2 Boolean expressions
 
   const a = 4;
   const b = 53;
@@ -18,7 +18,27 @@
   const f = false;
 
   console.log(a < b)
-  console.log()
+  console.log(c > d)
+  console.log(e === e)
+  console.log(a < b < c)
+  console.log(a > 0 && d > 0)
+  console.log(e === "Kelvin")
+  console.log(48 === 48)
+  // console.log(f = true, f_e = !e && f) #i cant figure out how to get this to become true#
+  const g = 0
+  console.log(g)
+  10 =g
+  // Did you use const, let or var? Why did you choose the one you chose?
+  
+  /*I used const to declare a new variable `g`*/
+  
+  //What happens if you don't use const , let or var? Do you get an error? If so what does it say?*/
+  
+  /*g = 0 | You get a SyntaxError: Unexpected identifier*/
+  
+  // what happens if you write 10 = g?
+  /*10 = g| You get a SyntaxError: Invalid left-hand side assignment*/
+
 
 // Section3 I need to review more, bc I'm not making sense of this section of the homework
 /*Is the code below an infinite loop? Why or why not?
