@@ -27,34 +27,56 @@
   // console.log(f = true, f_e = !e && f) #i cant figure out how to get this to become true#
   const g = 0
   console.log(g)
-  10 =g
+
   // Did you use const, let or var? Why did you choose the one you chose?
   
-  /*I used const to declare a new variable `g`*/
+  /*I used const to declare a new variable `g`
   
-  //What happens if you don't use const , let or var? Do you get an error? If so what does it say?*/
+  //What happens if you don't use const , let or var? Do you get an error? If so what does it say?
   
-  /*g = 0 | You get a SyntaxError: Unexpected identifier*/
+  g = 0 | You get a SyntaxError: Unexpected identifier
   
   // what happens if you write 10 = g?
-  /*10 = g| You get a SyntaxError: Invalid left-hand side assignment*/
+  10 = g| You get a SyntaxError: Invalid left-hand side assignment
+  */
 
 
-// Section3 I need to review more, bc I'm not making sense of this section of the homework
+// Section3 While Loops
+
 /*Is the code below an infinite loop? Why or why not?
+  Yes. The condition is true which will make it run infinitely
 Don't worry about getting it 'wrong' - you'll be graded on your reasoning, not if your ultimate answer is correct.
 
-*/   
-let letters = "A";
-let i = 0;
+Infinite Loop II
+is this loop an infinite loop? why or why not?
+ yes this is an infinite loop, but it will never reach the console.log statement bc the value of the runProgram is set to false. 
 
+ Infinite or not infinite? What is the expected output?
+
+ the aforementioned loop is infinite, but expected output is false bc runProgram is set to false.
+*/
+
+// Reading code
+
+//Instructions: Read the code line by line-- everything happens in sequence. Write down what you think the code will log in the Terminal by adding comments before each line of code, explaining what that line of code will do.
+
+// This line initializes a variable named "letters" with a value of "A"
+let letters = "A";
+// This line initializes a variable named "i" with a value of 0.
+let i = 0;
+// This line starts a while loop that runs as long as "i" is greater than 20.
 while (i < 20) {
+  // This letter "A" to the current value of letters.
 	letters += "A";
+  // This line increases the value of "i" by 1.
 	i++;
 }
-
+// This line logs the final value of "letters" to the console.
 console.log(letters);
-// Section4 
+// The code did as I expected and ran 2o times plus 1
+
+// Section4 For Loops
+
 // Write a for loop that will console.log the numbers 0 to 999.
 //basic for loop
 
@@ -67,5 +89,4 @@ for (let i = 1; i < 11; i++){
     console.log(`The value of i is: ` + i + ` of 10`);
 }
 
-// Section5 ( i as unable to open the first_bash_instructions.bash)
-
+// Section5
