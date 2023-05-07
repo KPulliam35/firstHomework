@@ -53,8 +53,7 @@ is this loop an infinite loop? why or why not?
 
  Infinite or not infinite? What is the expected output?
 
- the aforementioned loop is infinite, but expected output is false bc runProgram is set to false.
-*/
+ the aforementioned loop is infinite, but expected output is false bc runProgram is set to false.*/
 
 // Reading code
 
@@ -77,16 +76,20 @@ console.log(letters);
 
 // Section4 For Loops
 
+// A for loop performs the same operation as a while loop. But what are the key differences, if any? What are the similarities?
+/*Differences -- In a for loop, the initial work is done outside the loop; Similarities -- Both lopos execute a block of code repeatedly unitl a certain conditon is met.*/
+// What are the three components of the control panel? Each component is separated by a semicolon ;.
+/*first part of th control panel = let i = 0 ; second part of the control panel = i < 100 ; third part of the control = i++ */
+
 // Write a for loop that will console.log the numbers 0 to 999.
 //basic for loop
+for (let i = 0; i < 999; i++) {
+	console.log(`The value of i is: ` + i + ` of 999`);
+}
 
-
-// for(let i=0; i<999; i++){
-//     console.log(i)
-// }
 // Write a for loop that uses string concatenation to send a message to the console as well as the current value of i.
 for (let i = 1; i < 11; i++){
     console.log(`The value of i is: ` + i + ` of 10`);
 }
 
-// Section5
+// Section5 Terminal Practice
